@@ -13,6 +13,7 @@ targets:
     platform: iOS
     sources:
       - path: Sources/NetexIOS
+      - path: Assets.xcassets
       - path: Resources/NetexAssets
         type: folder
         buildPhase: resources

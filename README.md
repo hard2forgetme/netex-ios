@@ -4,6 +4,10 @@ Unofficial iOS companion to [Netex](https://github.com/mrdoob/netex), built with
 
 Netex iOS keeps the same core idea on iPhone: a compact web surface with a lower developer panel for Console, Source, Network, and Three.js. The original Android Netex app remains in its own repository; this repo exists so the iOS version can evolve separately.
 
+<p align="center">
+  <img src="docs/assets/demo-hero.png" alt="Netex iOS running a Three.js example with Source Inspector open on iPhone" width="100%">
+</p>
+
 ## Status
 
 - Local Netex start page instead of a remote default launch URL.
@@ -18,6 +22,31 @@ Netex iOS keeps the same core idea on iPhone: a compact web surface with a lower
 - Debug `WKWebView.isInspectable` support on iOS 16.4+.
 - Native panel drag snap points and safe-area layout.
 - Native signpost/log hooks for launch, navigation, panel readiness, perf marks, first console row, first network row, and Three.js readiness.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/assets/screenshots/start-page.jpg" alt="Netex iOS local start page" width="220"></td>
+    <td align="center"><img src="docs/assets/screenshots/examples-menu.jpg" alt="Netex iOS examples menu" width="220"></td>
+    <td align="center"><img src="docs/assets/screenshots/source-inspector.jpg" alt="Netex iOS Source Inspector with a Three.js example" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Local start page</strong></td>
+    <td align="center"><strong>Curated examples</strong></td>
+    <td align="center"><strong>Source Inspector</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/assets/screenshots/source-editor-expanded.jpg" alt="Netex iOS expanded source editor" width="220"></td>
+    <td align="center"><img src="docs/assets/screenshots/fullscreen-example.jpg" alt="Netex iOS full-screen Three.js example" width="220"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Expanded editor</strong></td>
+    <td align="center"><strong>Full-screen example</strong></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 ## Requirements
 

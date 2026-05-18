@@ -22,6 +22,7 @@
 		893D6C1D8D7AAE0C9A450A38 /* ExtensionRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1C2C8DE65A8B6E1D97436 /* ExtensionRouterTests.swift */; };
 		99B95527F86764F7ECD7E454 /* ExtensionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076711068497F696AD8DD970 /* ExtensionRouter.swift */; };
 		9B17C02D2880FE765DF1A657 /* PanelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F07F270F3F6460936F6F1 /* PanelMessage.swift */; };
+		A1A05A35EAC758FE4C9DE8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C87F0879A25A5F67783331 /* Assets.xcassets */; };
 		AFB62E66F6735FCFAF45E065 /* NetexMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BB3E59C92D5BE9D429CB0 /* NetexMetrics.swift */; };
 		B74943E5E4EE5A12649259BC /* PanelRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCE39EF3153BD9390D32C0 /* PanelRenderer.swift */; };
 		CD19D6F01D1775A2D868F133 /* NetexShimMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8EF8CDB6EFDA3BA539B8E /* NetexShimMode.swift */; };
@@ -72,6 +73,7 @@
 		880CEA4BB724C14B9AD3232F /* NetexIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetexIOSUITests.swift; sourceTree = "<group>"; };
 		96C1C2C8DE65A8B6E1D97436 /* ExtensionRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionRouterTests.swift; sourceTree = "<group>"; };
 		9DE0554C827AC764EDF26EDD /* NetexIOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NetexIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C87F0879A25A5F67783331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4BB3E59C92D5BE9D429CB0 /* NetexMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetexMetrics.swift; sourceTree = "<group>"; };
 		DD18BC9B751C6D892E2C52FF /* MessageBatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBatcherTests.swift; sourceTree = "<group>"; };
 		E79D17F866DABF428BB51D58 /* AssetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoader.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		DB4A9B286A090A170360A746 = {
 			isa = PBXGroup;
 			children = (
+				A8C87F0879A25A5F67783331 /* Assets.xcassets */,
 				86E78880DE63A53B7C270634 /* NetexAssets */,
 				0A1528E1DACDF17D872F36FD /* NetexIOS */,
 				2F1B9D0F4FCBDCE25EFCCB44 /* NetexIOSTests */,
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A05A35EAC758FE4C9DE8F7 /* Assets.xcassets in Resources */,
 				DB40245F8C94B23BC102C05E /* NetexAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
